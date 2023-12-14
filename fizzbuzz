@@ -6,7 +6,7 @@ if [[ $# -ne 1 ]]; then
     exit 1
 fi
 
-# get numebr to print up to from the first argument (interpret as a number)
+# get number to print up to from the first argument (interpret as a number)
 ((NUM=$1))
 
 # helper function to process fizzbuzz logic for a single number
